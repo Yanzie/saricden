@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<title>saricDen by Kirk</title>
 <style>
 @font-face
 {
