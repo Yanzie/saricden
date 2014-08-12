@@ -48,5 +48,10 @@
     &#169; Kirk Morris
 </div>
 
+<?php
+include_once 'src/php/sdUtils.class.php';
+sdUtils::sendView();
+?>
+
 </body>
 </html>
