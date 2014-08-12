@@ -50,7 +50,14 @@
 
 <?php
 include_once 'src/php/sdUtils.class.php';
-sdUtils::sendView();
+if (sdUtils::sendView())
+{
+    echo "&#10004;";
+}
+else
+{
+    echo "x";
+}
 ?>
 
 </body>
