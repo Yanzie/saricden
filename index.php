@@ -3,6 +3,8 @@
 <head>
 <title>saricDen by Kirk</title>
 <link rel="stylesheet" type="text/css" href="src/css/main.css">
+<link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="src/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
 
