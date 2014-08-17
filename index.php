@@ -25,20 +25,8 @@
     <p>I'm das Toronto-based programmer who code lots of stuff I think is the shit because it's pretty fun. My day to day stuff is backend PHP (and learning Rails), however I'm a big fan of frontend web dev. In my spare time I make web apps or games. Or play Skyrim. Mostly Skyrim.</p>
 </div>
 
-<div id="newsfeed" class="burrito">
-    <h2>What's new?</h2>
-    <ul>
-        <li>2 days ago on twitter I said "Apples are super rad"</li>
-        <li>3 days ago on twitter I said "I haven't made up my mind about apples"</li>
-        <li>3 days ago I commited <i>e3fa99</i> "Added apple logo"</li>
-        <li>On Jul. 29th I commited <i>3fabcc</i> "Made something cool"</li>
-        <li>On Jul. 27th on twitter I said "#renametwittertotwatter"</li>
-    </ul>
-    <div class="centered">
-        coming to you from:<br>
-        <a href><img style="width:75px;height:75px;" alt="Twitter"></a>
-        <a href><img style="width:75px;height:75px;" alt="Github"></a>
-    </div>
+<div id="newsfeed" class="burrito centered">
+    <img src="src/img/kirk-sprite.png" style="width:102px;height:102px;">
 </div>
 
 <div class="burrito">
@@ -49,18 +37,6 @@
 <div id="bigfoot" class="burrito">
     &#169; Kirk Morris
 </div>
-
-<?php
-include_once 'src/php/sdUtils.class.php';
-if (sdUtils::sendView())
-{
-    echo "&#10004;";
-}
-else
-{
-    echo "x";
-}
-?>
 
 </body>
 </html>
