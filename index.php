@@ -22,7 +22,7 @@
 
 <div id="main" class="burrito">
     <h1>Kirk M. // saricDen</h1>
-    <p>I'm das Toronto-based programmer who code lots of stuff I think is the shit because it's pretty fun. My day to day stuff is backend PHP (and learning Rails), however I'm a big fan of frontend web dev. In my spare time I make web apps or games. Or play Skyrim. Mostly Skyrim.</p>
+    <p>I'm ein Toronto-based programmer who code lots of stuff I think is the best because it's pretty fun. My day to day stuff is backend PHP (and learning Rails), however I'm a big fan of frontend web dev. In my spare time I make web apps or games. Or play Skyrim, Zelda or guitar.</p>
 </div>
 
 <div id="newsfeed" class="burrito centered">
