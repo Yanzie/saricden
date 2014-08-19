@@ -159,7 +159,7 @@ border-radius: 10px;
         <br style="clear:both;">
     </div>
     <div id="portfolio" class="center-block">
-    <fieldset><legend>Projects I'm Involved in</legend></fieldset>
+    <fieldset><legend>Projects I'm Involved In</legend></fieldset>
         <div class="rumie">
             <span>
                 The Rumie Initiative is an organization dedicated to providing education to developing nations utilizing affordable digital tablets.
@@ -197,7 +197,7 @@ border-radius: 10px;
         <div class="pmr">
             <span>
                 PMRobot is a centralized, agile project management tool developed for consultants and digital agencies.
-                The mobile-ready application provides a variety of functionality including ticket-centered conversations, time tracking, file storage, and budget tracking.
+                The mobile-ready application provides a variety of functionality including ticket-centred conversations, time tracking, file storage, and budget tracking.
                 I help design and implement features.
                 <br><br>
                 <b>Technologies I'm using to help:</b>
@@ -215,7 +215,7 @@ border-radius: 10px;
     </div>
     
     <div class="center-block">
-    <fieldset><legend>A Bit About me</legend></fieldset>
+    <fieldset><legend>A Bit about Me</legend></fieldset>
         <div id="pic"></div>
         <div id="bio">
             Hi! My name is Kirk and I'm a programmer with a passion for learning & creativity. I've always loved to build things, ever since I was the special little kid sitting in the corner putting Lego bricks in his mouth.
