@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #DDD;
+    color: #333;
+    font-family: sans-serif;
+}
+.center-block {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#header {
+    margin: 30px auto;
+    letter-spacing: 3px;
+    font-size: 17.5px;
+}
+#header div:nth-child(1) {
+    float: left;
+}
+#header div:nth-child(2) {
+    float: right;
+}
+#portfolio div {
+    width: 30%;
+    height: auto;
+    margin: 1.5%;
+    float: left;
+    background-color: #FFF;
+}
+#portfolio div:before {
+    content: "";
+    display: block;
+    padding-top: 50%;
+}
+.rumie:before {
+    background: url(../img/logos/rumie.png) center no-repeat,
+    url(../img/bg/rumie.png) center;
+}
+.empower:before {
+    background: url(../img/logos/empower.png) center no-repeat,
+    url(../img/bg/empower.png) center;
+}
+.pmr:before {
+    background: url(../img/logos/pmr.png) center no-repeat,
+    url(../img/bg/pmr.png) right;
+}
+.rumie a {
+    background-color: orange;
+}
+.empower a {
+    background-color: green;
+}
+.pmr a {
+    background-color: #00529B;
+}
+#portfolio div span {
+    display: block;
+    width: 85%;
+    margin: 0;
+    padding: 7.5%;
+    text-align: justify;
+    font-size: 95%;
+    letter-spacing: 0.5px;
+}
+#portfolio div span a {
+    display: block;
+    margin: 0 auto;
+    padding: 3%;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+h2 {
+    margin: 0;
+    font-weight: normal;
+}
+fieldset {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 0;
+    border-top: solid 1px #999;
+    text-align: center;
+}
+legend {
+    display: block;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+}
+#pic {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: url(../img/me.png) center no-repeat;
+}
+#bio {
+    float: left;
+    width: 70%;
+    padding: 2.5%;
+    text-align: justify;
+}
+#contact {
+    margin-bottom: 30px;
+    text-align: center;
+}
+a {
+    color: #6699FF;
+    text-decoration: none;
+    border: 0;
+}
+a:hover {
+    text-decoration: underline;
+}
+a img {
+    width: 64px;
+    height: 64px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+/* Tiny bit of a fix for responsive purposes. */
+@media screen and (max-width: 900px) {
+    #portfolio div { width: 100%; }
+    #pic {float: none; margin: 0 auto; }
+    #bio { width: 100%; }
+}
+
